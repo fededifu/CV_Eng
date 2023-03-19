@@ -4,13 +4,15 @@ body {
   font-family: 'Merriweather', serif;
   width: 210mm;
   height: 297mm;
+  max-width: 210mm;
+  margin: auto;
 }
 
 img {
-  position: absolute;
+  position: relative;
   border-radius: 50%;
-  left: 18mm;
-  top: 18mm;
+  left: -60mm;
+  top: -35mm;
   width: 220px;
   height: auto;
 }
@@ -48,11 +50,11 @@ li {
 }
 
 .footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   background-color: #3282B8;
   height: 10mm;
-  width: 100%;
+  width: 210mm;
 }
 
 .titolo {
@@ -103,12 +105,12 @@ li {
 
 .left {
   width: 33%;
-  margin-top: 30mm;
+  margin-top: -35mm;
 }
 
 .right {
   width: 53%;
-  margin-top: 5mm;
+  margin-top: -50mm;
 }
 
 .center {
