@@ -50,7 +50,7 @@ li {
 }
 
 .footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   background-color: #3282B8;
   height: 10mm;
