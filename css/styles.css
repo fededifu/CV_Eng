@@ -11,21 +11,20 @@ body {
 img {
   position: relative;
   border-radius: 50%;
-  left: -60mm;
-  top: -35mm;
-  width: 220px;
+  left: -75mm;
+  top: -30mm;
+  width: 200px;
   height: auto;
 }
 
 hr {
-  margin-top: 5mm;
-  margin-bottom: 4mm;
-  margin-left: 0mm;
+  margin-top: 1mm;
+  margin-bottom: 2mm;
+  margin-left: 6mm;
   color: #3282B8;
   background-color: #3282B8;
   border: none;
-  height: 0.7mm;
-  width: 50%;
+  height: 0.3mm;
   text-align: left;
   border-radius: 2%;
 }
@@ -40,13 +39,19 @@ li {
 }
 
 .header {
-  text-align: left;
   background-color: #3282B8;
   color: white;
-  height: 50mm;
+  height: 38mm;
   font-size: 16pt;
   font-family: Arial, Helvetica, sans-serif;
-  padding-left: 90mm;
+  text-align: center;
+}
+
+.contact {
+  color: #1B262C;
+  font-size: 16pt;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 1mm;
 }
 
 .footer {
@@ -59,9 +64,9 @@ li {
 
 .titolo {
   margin-bottom: 0;
-  margin-left: 2mm;
+  margin-left: 6mm;
   text-align: left;
-  font-size: 22pt;
+  font-size: 20pt;
   color: #3282B8;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -73,46 +78,14 @@ li {
   font-size: 18pt;
   margin-bottom: 3mm;
   margin-top: 0;
+  margin-left: 4mm;
 }
 
 .testo {
   color: #1B262C;
-  text-align: left;
   font-size: 16pt;
   font-family: Arial, Helvetica, sans-serif;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 3mm;
-}
-
-.testo-bullet {
-  color: rgb(115, 115, 115);
-  text-align: justify;
-  font-size: 14pt;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.row {
-  background-color: #BBE1FA;
-}
-
-.colomn {
-  float: left;
-  background-color: white;
-  margin-left: 5mm;
-  margin-right: 0mm;
-}
-
-.left {
-  width: 33%;
-  margin-top: -30mm;
-}
-
-.right {
-  width: 53%;
-  margin-top: -40mm;
-}
-
-.center {
-  width: 5%;
+  margin: 4mm;
+  text-align: left;
+  margin-left: 4mm;
 }
